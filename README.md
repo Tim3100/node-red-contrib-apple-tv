@@ -26,7 +26,7 @@ make test
 sudo make install
 ```
 
-If you're having trouble with ed25519, mdns, or sodium, re-install them in the root folder of your node-red, ensuring you've installed all the packages listed above.
+If you're having trouble with ed25519, mdns, or sodium, re-install them in the root folder of your node-red, ensuring you've installed all the packages listed above. An error about a missing package.json file during installation of mdns can be fixed by running 'npm init' first.
 
 ### Pairing
 -   Drag ATV input onto the canvas and select 'Add new atv-config...'
